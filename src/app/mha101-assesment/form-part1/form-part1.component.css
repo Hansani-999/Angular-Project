@@ -1,0 +1,54 @@
+input[matInput] {
+    width: 100%;
+    height: 40%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 1px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    margin-top: 0px;
+  }
+  
+  table,
+  td,
+  tr {
+    width: 100%;
+  }
+  
+  mat-label {
+    margin-bottom: 0.2px;
+  }
+  
+  br {
+    margin-bottom: 0.5px;
+  }
+  
+  .example-container {
+    margin-left: 1px;
+  }
+  
+  .mat-form-field {
+    width: 48%;
+    margin-right: 2%;
+  }
+  .example-right-align {
+    text-align: right;
+  }
+  
+  
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  
+  .check-example-right-align {
+    margin-left: 20%;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+  }
+  

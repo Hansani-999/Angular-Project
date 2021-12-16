@@ -1,0 +1,56 @@
+<form>
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Choose an option</mat-label>
+        <mat-select>
+          <mat-option value="option1">Option 1</mat-option>
+          <mat-option value="option2">Option 2</mat-option>
+          <mat-option value="option3">Option 3</mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field class="form-field" appearance="fill">
+        <label>Telephone</label><br>
+        <input matInput class="text-input" >
+      </mat-form-field><br>
+
+      <table class="example-full-width" cellspacing="0"><tr>
+        <td>
+            <label>Authorisation</label><br>
+            <button mat-raised-button class="btn-sign" ><mat-icon>person</mat-icon>  Sign</button>
+        </td>
+        <td><mat-form-field class="example-full-width">
+          <label>Signature</label><br>
+          <input matInput class="text-input-sign">
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <label>Date</label><br>
+          <input matInput type="date" class="input-date">
+        </mat-form-field></td>
+      </tr></table>
+      <div class="example-container">
+        <mat-form-field class="form-field" appearance="fill">
+          <label>Given Names</label><br>
+          <input matInput class="text-input" >
+        </mat-form-field>
+      
+        <mat-form-field class="form-field" appearance="fill">
+          <label>Family Name</label><br>
+          <input matInput class="text-input">
+        </mat-form-field>
+      </div>
+
+      <mat-form-field class="form-field" appearance="fill">
+        <label>Designation</label><br>
+        <input matInput class="text-input" >
+      </mat-form-field><br>
+
+      <mat-divider></mat-divider>
+      <br>
+    
+      <div class="example-container">
+        <mat-checkbox > Click here to display information relating to this form</mat-checkbox>
+        <button mat-raised-button class="btn-cancel" ><mat-icon>close</mat-icon>  Cancel</button>
+      </div>
+      <br>
+<mat-divider></mat-divider>
+</form>

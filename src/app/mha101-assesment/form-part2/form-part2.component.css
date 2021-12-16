@@ -1,0 +1,76 @@
+.text-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 1px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+  }
+  
+  textarea[matInput] {
+    width: 99%;
+    display: inline-block;
+    border-radius: 1px;
+    background-color: #f1f1f1;
+    border: 1px solid rgb(187, 177, 177);
+  }
+  
+  .mat-form-field {
+    width: 49%;
+    margin-right: 1%;
+  }
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .check-example-left-align {
+    margin-left: 15%;
+  }
+  
+  .date-example-left-align {
+    margin-left: 50px;
+  }
+  
+  .example-datetime {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 1px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    margin-left: 30%;
+  }
+  
+  button {
+    background-color: #1e89e0;
+    color: white;
+  }
+  
+  .textarea-record {
+    margin-left: 30%;
+    width: 70%;
+    display: inline-block;
+    border-radius: 1px;
+    background-color: #f1f1f1;
+    border: 1px solid rgb(187, 177, 177);
+  }
+  
