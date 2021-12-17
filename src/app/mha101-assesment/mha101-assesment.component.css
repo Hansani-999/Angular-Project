@@ -1,0 +1,13 @@
+.controls-container {
+    margin-left: 60px;
+  }
+  
+  table{
+      margin: 2px;
+      padding: 0%;
+  }
+  
+  .divider-blue{
+    border-top-color: blue;
+    border-width: 2px;
+  }

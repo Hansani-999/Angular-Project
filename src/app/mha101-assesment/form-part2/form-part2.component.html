@@ -1,83 +1,82 @@
 
 <form>
-    <div class="example-container">
-        <mat-form-field appearance="fill">
-          <label>Given Names</label><br>
-          <input matInput class="text-input" >
-        </mat-form-field>
-      
-        <mat-form-field appearance="fill">
-          <label>Family Name</label><br>
-          <input matInput class="text-input">
-        </mat-form-field>
-      </div>
-  
+  <div class="example-container">
+      <mat-form-field appearance="fill">
+        <label>Given Names</label><br>
+        <input matInput class="text-input" >
+      </mat-form-field>
     
-    <mat-form-field appearance="fill" class="example-full-width">
-        <label>Address of person to be assessed</label><br><br>        
-        <textarea matInput rows="4"></textarea>
-    </mat-form-field>
+      <mat-form-field appearance="fill">
+        <label>Family Name</label><br>
+        <input matInput class="text-input">
+      </mat-form-field>
+    </div>
+
   
-    <mat-label >1. I am * : </mat-label><br>
-        <mat-checkbox class="check-example-left-align">
-            a registered medical practitioner
-        </mat-checkbox><br>
-        <mat-checkbox class="check-example-left-align">
-            a mental health practitioner
-        </mat-checkbox><br>
-  
-    <mat-label >2. I examined the person on * : </mat-label><br>
-    <mat-form-field appearance="fill">
-      <input matInput type="date" class="example-datetime" placeholder="Published Date">
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-      <input matInput type="time" class="example-datetime" placeholder="Published Date">
-    </mat-form-field>
+  <mat-form-field appearance="fill" class="example-full-width">
+      <label>Address of person to be assessed</label><br><br>        
+      <textarea matInput rows="4"></textarea>
+  </mat-form-field>
+
+  <mat-label >1. I am * : </mat-label><br>
+      <mat-checkbox class="check-example-left-align">
+          a registered medical practitioner
+      </mat-checkbox><br>
+      <mat-checkbox class="check-example-left-align">
+          a mental health practitioner
+      </mat-checkbox><br>
+<br><br>
+  <mat-label >2. I examined the person on * : </mat-label><br>
+  <mat-form-field appearance="fill">
+    <input matInput type="date" class="example-datetime" placeholder="Published Date">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <input matInput type="time" class="example-datetime" placeholder="Published Date">
+  </mat-form-field>
+
+  <p>3. I am satisfied that all the following criteria in section 29 of the <b>Mental Health Act 2014</b> apply to the person.   </p>
+    <ol style="list-style-type:lower-alpha">
+      <li>the person appears to have mental illness <i>(mental illness is a medical condition that is characterised by a significant disturbance of thought, mood, perception or memory)</i>; and</li>
+      <li>because the person appears to have mental illness, the person appears to need immediate treatment to prevent:
+        <ol style="list-style-type:lower-roman" >
+          <li>serious deterioration in the person'smental or physical health; or</li>
+          <li>serious harm to the person or another person; and</li>
+        </ol>
+      </li>
+      <li>if the person is made subject to an Assesment Order, the person can be assessed; and</li>
+      <li>there is no less restrictive means reasonably available to enable the person to be assessed.</li>
+    </ol> 
     
-    <p>3. I am satisfied that all the following criteria in section 29 of the <b>Mental Health Act 2014</b> apply to the person.   </p>
-      <ol style="list-style-type:lower-alpha">
-        <li>the person appears to have mental illness <i>(mental illness is a medical condition that is characterised by a significant disturbance of thought, mood, perception or memory)</i>; and</li>
-        <li>because the person appears to have mental illness, the person appears to need immediate treatment to prevent:
-          <ol style="list-style-type:lower-roman" >
-            <li>serious deterioration in the person'smental or physical health; or</li>
-            <li>serious harm to the person or another person; and</li>
-          </ol>
-        </li>
-        <li>if the person is made subject to an Assesment Order, the person can be assessed; and</li>
-        <li>there is no less restrictive means reasonably available to enable the person to be assessed.</li>
-      </ol> 
-      
-      <mat-label>4. I base my opinion on the following * :</mat-label>
-      <button mat-button ><mat-icon>mic</mat-icon></button><br>
-      
-  
-    <mat-form-field appearance="fill" class="example-full-width">      
-        <textarea matInput rows="10" ></textarea>
-    </mat-form-field>
-  
-    <mat-label >5. I am satisfied that * : </mat-label><br>
-    <mat-checkbox class="check-example-left-align">
-        assessment can occur in the community ad make a Community Assessment Order.
-    </mat-checkbox><br>
-    <mat-checkbox class="check-example-left-align">
-      assessment cannot occur in the community ad make an Inpatient Assessment Order.
-    </mat-checkbox><br>
-  
-    <mat-label >6. Date and time Assessment Order is made  * : </mat-label><br>
-    <mat-form-field appearance="fill">
-      <input matInput type="date" class="example-datetime" placeholder="Published Date">
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-      <input matInput type="time" class="example-datetime" placeholder="Published Date">
-    </mat-form-field>
-  
-    <p>7. The duration of :</p>
-    <ul style="list-style-type:circle">
-      <li>a Community Assessment Order is 24 hours unless it is extended or revoked</li>
-      <li>an Inpatient Assessment Order is 24 hours after the person is received at a designated mental health service unless it is extended or revoked. (see also note 1 over page).</li>
-    </ul>
-    <mat-divider></mat-divider>
-  <br>
-  
-  </form>
-  
+    <mat-label>4. I base my opinion on the following * :</mat-label>
+    <button mat-button ><mat-icon>mic</mat-icon></button><br>
+    
+
+  <mat-form-field appearance="fill" class="example-full-width">      
+      <textarea matInput rows="10" ></textarea>
+  </mat-form-field>
+
+  <mat-label >5. I am satisfied that * : </mat-label><br>
+  <mat-checkbox class="check-example-left-align">
+      assessment can occur in the community ad make a Community Assessment Order.
+  </mat-checkbox><br>
+  <mat-checkbox class="check-example-left-align">
+    assessment cannot occur in the community ad make an Inpatient Assessment Order.
+  </mat-checkbox><br>
+<br><br>
+  <mat-label >6. Date and time Assessment Order is made  * : </mat-label><br>
+  <mat-form-field appearance="fill">
+    <input matInput type="date" class="example-datetime" placeholder="Published Date">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <input matInput type="time" class="example-datetime" placeholder="Published Date">
+  </mat-form-field>
+
+  <p>7. The duration of :</p>
+  <ul style="list-style-type:circle">
+    <li>a Community Assessment Order is 24 hours unless it is extended or revoked</li>
+    <li>an Inpatient Assessment Order is 24 hours after the person is received at a designated mental health service unless it is extended or revoked. (see also note 1 over page).</li>
+  </ul>
+  <mat-divider></mat-divider>
+<br>
+
+</form>
