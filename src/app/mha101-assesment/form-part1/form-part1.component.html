@@ -1,61 +1,62 @@
-<form>
+<form [formGroup]="firstForm" (ngSubmit)="formUSer()">
   <div class="example-container">
       <mat-form-field appearance="fill">
         <label>CPDMR ID</label><br><br>
-        <input matInput placeholder="P00007837">
+        <input type = "text" matInput placeholder="P00007837" formControlName="CPDMR_ID"> 
+        <span *ngif="CPDMR_ID && CPDMR_ID.invalid"></span>
       </mat-form-field>
     
       <mat-form-field appearance="fill">
         <label>FORM ID</label><br><br>
-        <input matInput class="example-right-align">
+        <input type ="text" matInput class="example-right-align" formControlName="FORM_ID">
       </mat-form-field>
     </div>
 
   <div class="example-container">
       <mat-form-field appearance="fill">
         <label>BH UR No</label><br><br>
-        <input matInput placeholder="BH-">
+        <input type="text" matInput placeholder="BH-" formControlName="BH_UR_NO"> 
       </mat-form-field>
     
       <mat-form-field appearance="fill">
         <label>MH UR No</label><br><br>
-        <input matInput class="example-right-align" placeholder="dsdsf">
+        <input type="text" matInput class="example-right-align" placeholder="dsdsf" formControlName="MH_UR_NO">
       </mat-form-field>
     </div>
 
     <div class="example-container">
       <mat-form-field appearance="fill">
         <label>Surname</label><br><br>
-        <input matInput placeholder="Sunjaya">
+        <input type="text" matInput placeholder="Sunjaya" formControlName="surName">
       </mat-form-field>
     
       <mat-form-field appearance="fill">
-        <label>Given Names</label><br><br>
-        <input matInput class="example-right-align" placeholder="">
+        <label>Given names</label><br><br>
+        <input type="text" matInput placeholder="" formControlName="givenName">
       </mat-form-field>
     </div>
 
     <div class="example-container">
       <mat-form-field appearance="fill">
         <label>Date of Birth</label><br><br>
-        <input matInput placeholder="08/01/2017">
+        <input type = "date" matInput placeholder="08/01/2017" formControlName="DOB">
       </mat-form-field>
     
-      <mat-form-field appearance="fill">
+           <mat-form-field appearance="fill">
         <label>Sex</label><br><br>
-        <input matInput class="example-right-align" placeholder="Male">
+        <input type = "text" matInput class="example-right-align" placeholder="Male" formControlName="Sex">
       </mat-form-field>
     </div>
 
     <div class="example-container">
-      <mat-form-field appearance="fill" class="example-full-width">
+      <mat-form-field appearance="fill">
         <label>Episode Date</label><br><br>
-        <input matInput>
+        <input type="text" matInput  class="example-full-width" formControlName="episodeDate">
       </mat-form-field>
     
       <mat-form-field appearance="fill">
         <label>Team</label><br><br>
-        <input matInput class="example-right-align">
+        <input type="text" matInput class="example-right-align" formControlName="Team">
       </mat-form-field>
     </div>
     <div class="example-container">

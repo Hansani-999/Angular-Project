@@ -2,12 +2,12 @@
 <form>
   <div class="example-container">
       <mat-form-field appearance="fill">
-        <label>Given Names</label><br>
+        <label>Given Names</label><br><br>
         <input matInput class="text-input" >
       </mat-form-field>
     
       <mat-form-field appearance="fill">
-        <label>Family Name</label><br>
+        <label>Family Name</label><br><br>
         <input matInput class="text-input">
       </mat-form-field>
     </div>
@@ -15,18 +15,20 @@
   
   <mat-form-field appearance="fill" class="example-full-width">
       <label>Address of person to be assessed</label><br><br>        
-      <textarea matInput rows="4"></textarea>
+      <textarea matInput rows="7"></textarea>
   </mat-form-field>
 
-  <mat-label >1. I am * : </mat-label><br>
-      <mat-checkbox class="check-example-left-align">
+  <mat-label >1. I am  : </mat-label><br>
+      <mat-checkbox 
+      [checked]="true"
+      class="check-example-left-align">
           a registered medical practitioner
       </mat-checkbox><br>
       <mat-checkbox class="check-example-left-align">
           a mental health practitioner
       </mat-checkbox><br>
 <br><br>
-  <mat-label >2. I examined the person on * : </mat-label><br>
+  <mat-label >2. I examined the person on  : </mat-label><br>
   <mat-form-field appearance="fill">
     <input matInput type="date" class="example-datetime" placeholder="Published Date">
   </mat-form-field>
@@ -47,9 +49,9 @@
       <li>there is no less restrictive means reasonably available to enable the person to be assessed.</li>
     </ol> 
     
-    <mat-label>4. I base my opinion on the following * :</mat-label>
+    <mat-label>4. I base my opinion on the following  :</mat-label>
     <button mat-button ><mat-icon>mic</mat-icon></button><br>
-    
+   
 
   <mat-form-field appearance="fill" class="example-full-width">      
       <textarea matInput rows="10" ></textarea>

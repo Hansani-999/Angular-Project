@@ -1,21 +1,21 @@
 <form>
     <mat-form-field class="example-full-width" appearance="fill">
-        <mat-label>Choose an option</mat-label>
-        <mat-select>
-          <mat-option value="option1">Option 1</mat-option>
-          <mat-option value="option2">Option 2</mat-option>
-          <mat-option value="option3">Option 3</mat-option>
+        <label>Bussiness Address</label>
+        <mat-select name="option">
+          <mat-option *ngFor="let option of options" [value]="option.value">
+            {{option.viewValue}}
+          </mat-option>
         </mat-select>
       </mat-form-field>
       
       <mat-form-field class="form-field" appearance="fill">
         <label>Telephone</label><br>
-        <input matInput class="text-input" >
+        <input matInput class="text-input" placeholder="5454 6000" >
       </mat-form-field><br>
 
-      <table class="example-full-width" cellspacing="0"><tr>
+      <table class="example-full-width-1" cellspacing="0"><tr>
         <td>
-            <label>Authorisation</label><br>
+            <label>Authorisation</label><br><br>
             <button mat-raised-button class="btn-sign" ><mat-icon>person</mat-icon>  Sign</button>
         </td>
         <td><mat-form-field class="example-full-width">

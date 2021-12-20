@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
  import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
  import { MaterialModule } from './material/material.module';
- import { BrowserModule } from '@angular/platform-browser';
+ import { FormModule } from './form/form.module';
 
+ import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +23,8 @@ import { FormPart3Component } from './mha101-assesment/form-part3/form-part3.com
   ],
   imports: [
     BrowserModule,
+    FormModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     MaterialModule,
     AppRoutingModule
